@@ -37,8 +37,24 @@ Ensure you have the following installed on your system:
 
 ### Steps to Run the Application
 
-1. Clone the repository:
+### Step 3: Clone the repository:
    ```bash
    git clone <repository_url>
    cd <repository_folder>
    ```
+
+#### Step 2: Place the necessary files in the root directory
+
+Make sure the following files are in the same directory as the `app.py` script:
+
+- `iris_linear.pkl`: Pre-trained model file.
+- `iris_cols.pkl`: File containing the feature names.
+
+#### Step 3: Run the Streamlit application
+
+Use the following command to start the Streamlit app:
+
+```bash
+streamlit run app.py
+
+```
